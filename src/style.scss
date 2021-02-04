@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Noto Sans KR', sans-serif;
+/*reset*/
+* {margin:0px; padding:0px;}
+ol, ul {list-style:none;}
+a {text-decoration:none;}
+table, td, th {border-collapse:collapse;}
+fieldset {border:none;}
+input, a, button {outline:1;}
+.hidden {position:absolute; top:-9999px; opacity:0;}
+body{background:#111;}
+@import "main/header/header.scss";
+@import "main/visual/visual.scss";
+@import "main/footer/footer.scss";
+
+// @import "sub/header/header.scss";
+// @import "sub/footer/footer.scss";
